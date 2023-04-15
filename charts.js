@@ -134,7 +134,7 @@ function buildCharts(sample) {
     // Deliverable 2: 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
     // Deliverable 3: 4. Create the trace for the gauge chart.
-    var gaugeData: [{
+    var gaugeData = [{
       domain: { x: [0, 1], y: [0, 1] },
       value: washingFrequency,
       title: {text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week"},
@@ -148,11 +148,11 @@ function buildCharts(sample) {
           {range: [2, 4], color: "orange"},
           {range: [4, 6], color: "yellow"},
           {range: [6, 8], color: "lightgreen"},
-          {range: [8, 10], color: "green"},
-        ]}
+          {range: [8, 10], color: "green"}]}
 
-    }];
+    }]
 
+   
     // var data = [
 
     //   {
