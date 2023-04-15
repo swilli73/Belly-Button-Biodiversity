@@ -150,27 +150,8 @@ function buildCharts(sample) {
           {range: [6, 8], color: "lightgreen"},
           {range: [8, 10], color: "green"}]}
 
-    }]
+    }];
 
-   
-    // var data = [
-
-    //   {
-    
-    //     domain: { x: [0, 1], y: [0, 1] },
-    
-    //     value: 270,
-    
-    //     title: { text: "Speed" },
-    
-    //     type: "indicator",
-    
-    //     mode: "gauge+number"
-    
-    //   }
-    
-    // ];
-    
     // Deliverable 3: 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
       width: 500, 
