@@ -91,7 +91,7 @@ function buildCharts(sample) {
       type: "bar",
       orientation: "h",
       marker: {
-        colorscale: "Portland"
+        colorscale: "Picnic"
       }
 
   }];
