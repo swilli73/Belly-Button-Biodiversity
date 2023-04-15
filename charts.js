@@ -65,7 +65,7 @@ function buildCharts(sample) {
     // Deliverable 1: 4. Create a variable that filters the samples for the object with the desired sample number.
     var sampleData = samples.filter(sampleObject => sampleObject.id == sample);
     // Deliverable 3: 1. Create a variable that filters the metadata array for the object with the desired sample number.
-
+    var sampleData = samples.filter(sampleObject => sampleObject.id == sample);
     // Deliverable 1: 5. Create a variable that holds the first sample in the array.
     var firstSample = sampleData[0];
     // Deliverable 3: 2. Create a variable that holds the first sample in the metadata array.
@@ -119,11 +119,11 @@ function buildCharts(sample) {
     // Deliverable 2: 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: "Bacteria Cultures per Sample",
-      xaxis: "OTU ID",
+      xaxis: {title: "OTU ID"},
       margins: {
-        b: 0,
         l: 0,
         r: 0,
+        b: 0,
         t: 0     
       },
       hovermode: "closest"
