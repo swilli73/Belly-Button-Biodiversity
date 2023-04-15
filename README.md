@@ -1,7 +1,7 @@
 # Belly-Button-Biodiversity
 Javascript, Visual Studio Code, Plotly, HTML
 
-### The customizations I added to the base starter code for this project was a background for the non-element portions of the page, adding a project overview, and adjusting the layout of the elements a bit by editing their "col-md" classes.
+### The customizations I added to the base starter code for this project was a background for the non-element portions of the page, adding a project overview, and adjusting the layout of the elements a bit by editing their "col-md" classes. I also slightly changed the font of the jumbotron and well elements.
 <hr>
 https://swilli73.github.io/Belly-Button-Biodiversity/ <-- Github Pages Link
 
