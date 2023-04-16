@@ -82,15 +82,17 @@ function buildCharts(sample) {
     // so the otu_ids with the most bacteria are last.
     // Asked BCS for help on this one and ended up answering my own question when I remembered what the bar chart was supposed to look like
     var yticks = otu_ids.map(otu => "OTU " + otu).slice(0,10).reverse();
+    var x = sample_values.slice(0,10).reverse()
 
     // Deliverable 1: 8. Create the trace for the bar chart. 
     var barData = [{
-      x: sample_values.slice(0,10).reverse(),
+      x: x,
       y: yticks,
       text: otu_labels.slice(0,10).reverse(),
       type: "bar",
       orientation: "h",
       marker: {
+        color: x,
         colorscale: "Picnic"
       }
 
